@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.12" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="check the registration functionality of demoblaze" name="Register Demoblaze Website" time="0.032">
+<system-out><![CDATA[
+Given User is on the homepage...............................................passed
+When User click on Signup...................................................passed
+When User enters username and password in registration......................passed
+Then User click the Signup button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check the login functionality of demoblaze" name="Login Demoblaze" time="6.882">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters username and password......................................passed
+Then User click the login button............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
